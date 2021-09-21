@@ -1,2 +1,3 @@
 # twyloc
-Python package to get a tweet's location. 
+Under maintenance 🚧 👷‍♀️: Python package to get a tweet's location. 
+Arriving by the end of September!
