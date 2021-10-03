@@ -41,8 +41,8 @@ It searches out for any of the following information in a tweet object:
 <!-- toc -->
 - Coordinate:  Nullable else twyloc uses latitude, longitude information to fetch the location details
 - Place: Nullable else provides a user's location
-- User-defined location: (1) NLP to process any place entity in the text (2) Use the [geocoder library](https://geocoder.readthedocs.io/) to fetch the location 
-- User-defined description: (1) NLP to process any place entity in the text (2) Use the geocoder library to fetch the location 
+- User-defined location: (1) NLP to process any place entity in the text (2) [Geocoder library](https://geocoder.readthedocs.io/) to fetch the location 
+- User-defined description: (1) NLP to process any place entity in the text (2) Geocoder library to fetch the location 
 <!-- tocstop -->
 
 ## Sample Usage
