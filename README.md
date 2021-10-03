@@ -41,7 +41,7 @@ It searches out for any of the following information in a tweet object:
 <!-- toc -->
 - Coordinate:  Nullable else twyloc uses latitude, longitude information to fetch the location details
 - Place: Nullable else provides a user's location
-- User-defined location: (1) NLP to process any place entity in the text (2) Use the geocoder library to fetch the location 
+- User-defined location: (1) NLP to process any place entity in the text (2) Use the [geocoder library](https://geocoder.readthedocs.io/) to fetch the location 
 - User-defined description: (1) NLP to process any place entity in the text (2) Use the geocoder library to fetch the location 
 <!-- tocstop -->
 
@@ -55,12 +55,12 @@ get_user_location(tweet, app_agent_name)
 
 | Argument | Description 
 | ---- | --- | 
-| tweet | Tweet object |
+| tweet | [Tweet object](https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet) |
 | app_agent_name | Give a random name -- required by the geopy library |
 
 
 ## Installation 
-Soon to be published as a pip package 🥲
+Soon to be published as a pip package 😅
 
 ## Todos
 1. Duh!! The document can be made a lot better 
