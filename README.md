@@ -59,9 +59,6 @@ get_user_location(tweet, app_agent_name)
 | app_agent_name | Give a random name -- required by the geopy library |
 
 
-## Installation 
-Soon to be published as a pip package 😅
-
 ## Todos
 1. Duh!! The document can be made a lot better 
 2. Add some twyloc stats on performance
